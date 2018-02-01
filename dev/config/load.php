@@ -3,7 +3,10 @@
 //Deny direct access
 defined('ACCESS') ? '' : die('No direct access is allowed!');
 
-load_package('filter');
-load_package('token');
-load_package('extra');
-load_package('sha2');
+inc('filter');
+inc('token');
+inc('extra');
+inc('sha2');
+
+use_phpexcel();
+use_phpmailer();

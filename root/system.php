@@ -7,8 +7,18 @@ defined('ACCESS') ? '' : die('No direct access is allowed!');
 define('ABSPATH', str_replace('\\', '/', dirname(dirname(__FILE__))));
 
 //Include certain files if needed by the user
-function load_package($package){
-	include(ABSPATH . '/root/etc/'.$package.'.php');
+function inc($package){
+	require_once(ABSPATH . '/root/etc/'.$package.'.php');
+}
+
+//PHPExcel library
+function use_phpexcel(){
+	require_once(ABSPATH . '/root/lib/PHPExcelMaster/PHPExcel.php');
+}
+
+//PHPMailer library
+function use_phpmailer(){
+	require_once(ABSPATH . '/root/lib/PHPMailer/PHPMailerAutoload.php');
 }
 
 //Load user configuration files file

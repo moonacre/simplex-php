@@ -1,1 +1,1 @@
-It's working!
+You are now running SimplexPHP ver.2.0. Thank you!
