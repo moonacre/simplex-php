@@ -17,9 +17,11 @@ This framework runs best on PHP7. However, older versions starting from PHP5+ ar
 * [PHPExcel](https://github.com/PHPOffice/PHPExcel) - Included in the root library (still updating to PhpSpreadsheet)
 * [PHPMailer](https://github.com/PHPMailer/PHPMailer) - Included in the root library
 
-### About
-Author: Jackson A. Mangallay a.k.a Moonacre
-Version: 1.0
+### Author
+Jackson A. Mangallay a.k.a Moonacre
+
+### Version
+1.0
 
 This framework contains [PHPExcel](https://github.com/PHPOffice/PHPExcel) and [PHPMailer](https://github.com/PHPMailer/PHPMailer). I am not directly involved nor a contributor of these libraries.
 
